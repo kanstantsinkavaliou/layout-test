@@ -1,0 +1,10 @@
+.large-title{
+    display: flex;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}

@@ -1,0 +1,92 @@
+.channel-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 85%;
+}
+.channel-content .channel-logo{
+}
+.channel-content .channel-logo img{
+}
+.channel-panel-main-info{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 70px;
+}
+.channel-content .content{
+    height: 80px;
+    width: 80px;
+}
+.channel-panel-main-info .texted-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+.channel-panel-main-info .texted-info .small-title{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+}
+.icon-bell{
+    align-self: center;
+    justify-self: center;
+}
+.subscribe-btn{
+    align-self: center;
+    justify-self: center;
+}
+.subscribe-btn .subscribe-btn-red{
+    height: 40px;
+}
+
+.channel-content .user-video-list .video-card{
+    width: 250px;
+}
+
+.channel-content .f{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.channel-content .a {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.channel-content .channel-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.channel-menu .mid-title{
+    font-weight: 400;
+}
+
+.channel-menu .selected {
+    color: #FF0000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.channel-content .recommended-channels{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: start;
+    align-items: flex-start;
+    width: 40%;
+}
+.channel-content .recommended-channels .content{
+    width: 50px;
+    height: 50px;
+}
+.recommended-channels-items{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

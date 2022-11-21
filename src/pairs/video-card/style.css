@@ -1,0 +1,52 @@
+.video-card{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish';
+    font-style: normal;
+    height: calc(100% + 40px);
+}
+.video-card iframe{
+    height: 100%;
+}
+.video-time{
+    font-size: 14px;
+    line-height: 18px;
+    margin: -2em 1em 1em auto;
+    color: #ffffff;
+    padding: 0 10px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 12px;
+}
+.video-content{
+    display: flex;
+    border-radius: 14px;
+}
+.video-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+}
+.video-sub-title{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #C2C2C2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.video-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.inline-block{
+    margin-top: -0.25em;
+}
+.author{
+    justify-content: end;
+}

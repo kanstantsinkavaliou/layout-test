@@ -1,0 +1,19 @@
+input{
+    background: #EBEBEB;
+    border-radius: 22px;
+    width: 60%;
+    height: 100%;
+    border: none;
+    opacity: 0.4;
+
+    text-indent: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #30384C;
+    mix-blend-mode: normal;
+}
+.search-icon{
+    margin-left: -30px;
+    opacity: 1;
+}

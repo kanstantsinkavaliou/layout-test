@@ -1,0 +1,16 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+

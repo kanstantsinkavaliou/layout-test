@@ -1,0 +1,16 @@
+.subscribe-btn-red{
+    background: #FF0000;
+    border-radius: 20px;
+    height: 100%;
+    min-width: 154px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-btn-red .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}

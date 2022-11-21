@@ -1,0 +1,10 @@
+.mid-title{
+    display: flex;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}

@@ -1,0 +1,10 @@
+.small-title{
+    display: flex;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+}
