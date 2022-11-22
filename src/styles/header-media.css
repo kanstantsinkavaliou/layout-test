@@ -1,0 +1,41 @@
+@media (max-width: 1350px) {
+    .menu{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .menu{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .menu .burger{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .search-container{
+        flex-grow: 0;
+        width: 0px;
+    }
+    .search-container input{
+        display: none;
+    }
+    .search-container img{
+        margin-left: 0px;
+        align-self: center;
+    }
+    .icons{
+        display: none;
+    }
+    .epic{
+        margin-right: 10px;
+    }
+    .header .epic .content{
+        height: 30px;
+        width: 30px;
+    }
+}

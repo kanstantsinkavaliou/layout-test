@@ -1,0 +1,29 @@
+@media (max-width: 400px) {
+
+    .user-video-list .user-video-item{
+        flex-direction: column;
+    }
+    .user-video-list .user-video-item .video-card{
+        width: 288px;
+    }
+
+    .videos{
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 100%;
+    }
+
+    .video-list-header{
+        display: none;
+    }
+    .user-recommended{
+        display: none;
+    }
+    .user-interest{
+        display: none;
+    }
+    .user-video-item:last-child{
+        margin-bottom: 70px;
+    }
+
+}
