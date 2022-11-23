@@ -4,9 +4,9 @@
     gap: 3rem;
     font-family: 'Mulish';
     font-style: normal;
-    width: 100%;
     overflow: hidden;
     margin: 20px 0px 0px 0px;
+    max-width: 1920px;
 }
 .content{
     display: flex;
