@@ -35,7 +35,13 @@
 .settings-parts{
     height: 20px;
 }
-
+.small-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
+}
 .small-title .selected{
     color: #FF0000;
 }
