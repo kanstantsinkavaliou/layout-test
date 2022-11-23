@@ -1,10 +1,10 @@
-@media (max-width: 400px) {
+@media (max-width: 850px) {
 
     .user-video-list .user-video-item{
         flex-direction: column;
     }
     .user-video-list .user-video-item .video-card{
-        width: 288px;
+        width: calc(100% - 32px)
     }
 
     .videos{
