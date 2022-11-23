@@ -36,14 +36,6 @@
     height: 20px;
 }
 
-.small-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 1rem;
-    text-decoration: none;
-}
 .small-title .selected{
     color: #FF0000;
 }
