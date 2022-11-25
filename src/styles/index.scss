@@ -1,0 +1,24 @@
+@use 'global';
+
+.home{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: 'Mulish';
+  font-style: normal;
+  overflow: hidden;
+  margin: 20px 0px 0px 0px;
+  max-width: 1920px;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media (max-width: 850px) {
+  .home{
+    margin-top: 0px;
+    gap: 1rem;
+  }
+}
