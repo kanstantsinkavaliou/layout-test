@@ -12,10 +12,17 @@ console.log("mode = " + mode)
 module.exports = {
     mode,
     plugins: [
-        new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
             template: "./src/index.html",
-        })],
+            chunks: ['main']
+        }),
+        new HtmlWebpackPlugin({
+            template: "./src/pages/channel/channel-page.html",
+            filename: 'channel-page.html',
+            chunks: ['channel-page']
+        }),
+        new MiniCssExtractPlugin()
+    ],
     module: {
         rules: [
             {
