@@ -1,4 +1,8 @@
 @use 'global';
+@use 'bottom-menu';
+@use 'header';
+@use 'left-menu';
+@use 'video-content';
 
 .home{
   display: flex;

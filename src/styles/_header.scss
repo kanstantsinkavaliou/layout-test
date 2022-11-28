@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    height: 50px;
+
+    .menu{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+        padding-left: 30px;
+
+        .burger{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo{}
+    }
+
+    .search-container{
+        flex-grow: 1;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:2rem;
+        height: 40px;
+    }
+
+    .epic{
+        padding-right: 50px;
+
+        .content{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+
+
+
+
