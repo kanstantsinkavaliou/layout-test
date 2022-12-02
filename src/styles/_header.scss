@@ -1,9 +1,15 @@
+@import "global";
+
 .header{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
     height: 50px;
+
+    @media (max-width: $mobile-breakpoint) {
+        justify-content: space-between;
+    }
 
     .menu{
         display: flex;
@@ -15,6 +21,10 @@
         .burger{
             justify-content: center;
             align-items: center;
+
+            @media (max-width: $mobile-breakpoint) {
+                display: none;
+            }
         }
 
         .logo{}
@@ -26,6 +36,24 @@
         display: flex;
         align-items: center;
         flex-direction: row;
+
+        @media (max-width: $mobile-breakpoint) {
+            flex-grow: 0;
+            width: 0px;
+        }
+
+        input{
+            @media (max-width: $mobile-breakpoint) {
+                display: none;
+            }
+        }
+
+        img{
+            @media (max-width: $mobile-breakpoint) {
+                margin-left: 0px;
+                align-self: center;
+            }
+        }
     }
 
     .icons{
@@ -34,15 +62,28 @@
         align-items: center;
         gap:2rem;
         height: 40px;
+
+        @media (max-width: $mobile-breakpoint) {
+            display: none;
+        }
     }
 
     .epic{
         padding-right: 50px;
 
+        @media (max-width: $mobile-breakpoint) {
+            margin-right: 10px;
+        }
+
         .content{
             height: 40px;
             width: 40px;
             border-radius: 50%;
+
+            @media (max-width: $mobile-breakpoint) {
+                height: 30px;
+                width: 30px;
+            }
         }
     }
 }

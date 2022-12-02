@@ -13,7 +13,7 @@ import './styles/header-media.css'
 import './styles/_left-menu.scss'
 import './styles/left-menu-media.css'
 import './styles/_video-content.scss'
-import './styles/video-content-media.css'
+import './styles/_video-content-media.scss'
 import './styles/_bottom-menu.scss'
 import './styles/bottom-menu-media.css'
 

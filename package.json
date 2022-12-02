@@ -9,16 +9,11 @@
     "build": "cross-env NODE_ENV=production webpack"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kanstantsinkavaliou/layout-test.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kanstantsinkavaliou/layout-test/issues"
-  },
-  "homepage": "https://github.com/kanstantsinkavaliou/layout-test#readme",
   "devDependencies": {
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.2",

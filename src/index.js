@@ -9,9 +9,3 @@ import './pairs/circle-image/style.css'
 import './pairs/video-card/style.css'
 import './pairs/arrows/style.css'
 
-import './styles/header-media.css'
-import './styles/left-menu-media.css'
-import './styles/video-content-media.css'
-import './styles/bottom-menu-media.css'
-
-
