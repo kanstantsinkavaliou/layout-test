@@ -1,0 +1,116 @@
+@import "global";
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 85%;
+    
+    @media (max-width: $mobile-breakpoint) {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 100%;
+    }
+
+    .user-video-list{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .video-card{
+            width: 250px;
+        }
+
+        @media (max-width: $mobile-breakpoint) {
+
+            .video-list-header{
+                display: none;
+            }
+
+            .user-video-item{
+                flex-direction: column;
+
+                .video-card{
+                    width: calc(100% - 32px)
+                }
+
+                &:last-of-type {
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+
+    .user-recommended{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        @media (max-width: $mobile-breakpoint) {
+            display: none;
+        }
+
+        .video-card{
+            width: 540px;
+        }
+    }
+
+    .user-interest{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        @media (max-width: $mobile-breakpoint) {
+            display: none;
+        }
+
+        .video-card{
+            width: 250px;
+        }
+    }
+
+    .video-list-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        height: 50px;
+
+        .content{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .large-title{
+            flex-grow: 1;
+        }
+
+        .arrows{
+            margin-right: 60px;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+
+            .background-circle{
+                height: 25px;
+                width: 25px;
+            }
+
+            .right{
+                transform: rotate(-45deg);
+            }
+
+            .left{
+                transform: rotate(135deg);
+            }
+        }
+    }
+
+    .user-video-item{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
