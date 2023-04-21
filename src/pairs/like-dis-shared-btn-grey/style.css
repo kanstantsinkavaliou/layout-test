@@ -1,0 +1,28 @@
+.btn-grey {
+    background: #EBEBEB;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn-grey .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/*.btn-grey .like-icon{*/
+/*    background: url('./icons/Combined-Shape-path.png');*/
+/*}*/
+/*.btn-grey .dislike-icon{*/
+/*    background: url('./icons/Combined-Shape-path-dis.png');*/
+/*}*/
+/*.btn-grey .share-icon{*/
+/*    background: url('./icons/Fill-62.png');*/
+/*}*/

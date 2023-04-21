@@ -3,9 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    font-family: 'Mulish';
-    font-style: normal;
+    gap: 2rem;
     height: calc(100% + 40px);
 }
 .video-card-with-left-side-desc iframe{
@@ -22,7 +20,7 @@
 .video-card-with-left-side-desc .video .video-time{
     font-size: 14px;
     line-height: 18px;
-    margin: -2em 1em 1em 365px;
+    margin: -2em 1em 1em 480px;
     color: #ffffff;
     padding: 0 10px;
     background: #000000;
@@ -33,7 +31,7 @@
 .video-card-with-left-side-desc .video-content{
     display: flex;
     border-radius: 14px;
-    width: 100%;
+    width: 540px;
 }
 
 .video-card-with-left-side-desc .description{
@@ -43,11 +41,11 @@
 
 .video-card-with-left-side-desc .video-title{
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 26px;
+    line-height: 34px;
     color: #19202C;
 }
-.subtitle{
+.video-card-with-left-side-desc .subtitle{
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;

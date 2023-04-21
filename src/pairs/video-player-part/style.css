@@ -1,0 +1,127 @@
+.video-player{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    width: 1368px;
+    height: calc(100% + 40px);
+}
+.video-player iframe{
+    height: 100%;
+}
+.video-player .video-content{
+    display: flex;
+    border-radius: 14px;
+}
+.video-player .video-title{
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #19202C;
+}
+.video-player .video-sub-title{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #C2C2C2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-player .video-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.video-player .video-social-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.video-player .video-social-btn .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #192646;
+}
+.meatball-menu{
+    width: 40px;
+    height: 40px;
+}
+.meatball-menu span{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+}
+.meatball-menu span:nth-child(1){
+    margin-top: 17px;
+    margin-left: 3px;
+    transition: .6s;
+}
+.meatball-menu span:nth-child(2){
+    margin-top: 17px;
+    margin-left: 17px;
+}
+.meatball-menu span:nth-child(3){
+    margin-top: 17px;
+    margin-left: 31px;
+    transition: .6s;
+}
+.video-player .underline{
+    color: rgba(216, 216, 216, 0.5);
+}
+.video-player .video-subscription{
+    display: flex;
+    gap: 0.5rem;
+}
+.video-player .right{
+    display: flex;
+    gap: 1rem;
+}
+.video-player .right .content {
+    width: 80px;
+    height: 80px;
+}
+.video-player .left{
+    margin-left: auto;
+}
+.video-player .subscription-container{
+    display: flex;
+    flex-direction: column;
+}
+.video-player .subscription-container .title{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+.video-player .subscription-container .subtitle{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    opacity: 1;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.video-player .subscription-container .describe{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    padding-bottom: 20px;
+}
+.video-player .subscription-container .show-more{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C2C2C2;
+}

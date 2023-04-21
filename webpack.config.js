@@ -14,12 +14,18 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: "./src/index.html",
+            filename: 'index.html',
             chunks: ['main']
         }),
         new HtmlWebpackPlugin({
             template: "./src/pages/channel/channel-page.html",
             filename: 'channel-page.html',
-            chunks: ['channel-page']
+            chunks: ['main','channel-page']
+        }),
+        new HtmlWebpackPlugin({
+            template: "./src/pages/video-player/video-player.html",
+            filename: 'video-player.html',
+            chunks: ['main','video-player']
         }),
         new MiniCssExtractPlugin()
     ],

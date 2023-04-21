@@ -23,7 +23,7 @@
     display: flex;
     border-radius: 14px;
 }
-.video-title{
+.video-card .video-title{
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
